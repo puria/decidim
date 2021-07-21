@@ -164,7 +164,7 @@ pl:
         newsletter:
           new: Nowy newsletter
         participatory_space_private_user:
-          new: Nowy prywatny użytkownik przestrzeni partycypacyjnej
+          new: Nowy użytkownik prywatny
         per_page: Na stronę
         permissions: Uprawnienia
         reject: Odrzuć
@@ -871,7 +871,7 @@ pl:
         scope_types: Typy zakresów
         scopes: Zakresy
         static_pages: Strony
-        statistics: Działania
+        statistics: Aktywność
         user_groups: Grupy użytkowników
         users: Administratorzy
       user_group:
@@ -912,7 +912,7 @@ pl:
           success: Użytkownik nie jest już administratorem.
         form:
           email: E-mail
-          name: Nazwa
+          name: Imię
           role: Rola
         new:
           create: Zaproś

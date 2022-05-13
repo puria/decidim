@@ -16,8 +16,6 @@ module Decidim
 
       helper_method :meetings, :meeting, :registration, :search
 
-      redesign active: true
-
       def new
         enforce_permission_to :create, :meeting
 

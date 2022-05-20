@@ -24,7 +24,7 @@ This is on the default Decidim installation so you shouldn't change anything to 
 
 ## Documentation
 
-Read more about this component on [Admin Manual](https://docs.decidim.org/admin-manual/en/processess/#surveys).
+Read more about this component on [Admin Manual](https://docs.decidim.org/en/admin/components/surveys/).
 
 ## Contributing
 

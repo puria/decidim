@@ -246,6 +246,7 @@ en:
         steps:
           create_election:
             errors:
+              census_not_frozen: The census for this election must be frozen before creating the election
               max_selections: The questions do not have a <strong>correct value for amount of answers</strong>
               minimum_answers: Questions must have <strong>at least two answers</strong>.
               minimum_questions: The election <strong>must have at least one question</strong>.

@@ -95,17 +95,16 @@ module Decidim
       end
     end
 
-    def icon(*args)
-      redesigned_icon(*args)
-      # redesign_enabled? ? redesigned_icon(*args) : legacy_icon(*args)
-    end
-
     def arrow_link(text, url, args = {})
       content_tag :a, href: url, class: "arrow-link #{args.with_indifferent_access[:class]}" do
         inner = text
         inner += redesigned_icon("arrow-right-line", class: "fill-current")
         inner.html_safe
       end
+    end
+
+    def icon(*args)
+      redesign_enabled? ? redesigned_icon(*args) : legacy_icon(*args)
     end
 
     # Outputs a SVG icon from an external file. It apparently renders an image
